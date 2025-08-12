@@ -1,0 +1,27 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+}
+
+:root {
+    --app-background: oklch(0.9 0.04 250.25);
+    --app-foreground: oklch(0.2228 0.0402 270.23);
+    --app-surface-bg: oklch(0.8 0.05 270.23);
+    --app-input-bg: oklch(0.794 0.06 270.23);
+    --app-shadow: 2px 3px 5px oklch(0.2 0.01 230);
+}
+
+[data-theme='dark'] {
+    --app-background: oklch(0.2228 0.0402 270.23);
+    --app-foreground: oklch(0.99 0.04 270.25);
+    --app-surface-bg: oklch(0.4 0.0402 270.23);
+    --app-input-bg: oklch(0.6 0.06 270.23);
+}
+
+body {
+    background-color: var(--app-background);
+    color: var(--app-foreground);
+}

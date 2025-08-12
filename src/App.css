@@ -1,0 +1,60 @@
+.number-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: var(--app-surface-bg);
+  color: var(--app-foreground);
+  width: 20rem;
+  margin: 1rem;
+  padding: 1rem;
+  border-radius: 6px;
+  box-shadow: var(--app-shadow);
+  overflow-wrap: break-word;
+  white-space: pre-line;
+  inline-size: 18rem;
+}
+
+.screen {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#number-input {
+  width: 9rem;
+  padding: 0.3rem;
+  font-size: 1rem;
+  margin: 1rem;
+  border-radius: 4px;
+  text-align: center;
+  background-color: var(--app-input-bg);
+  color: var(--app-foreground);
+  border: none;
+}
+
+#number-input::placeholder {
+  color: var(--app-foreground);
+}
+
+#number-input:focus {
+  outline: solid blue;
+}
+
+.theme-button {
+  width: 3rem;
+  height: 3rem;
+  border-radius: 100%;
+  border: none;
+  margin: 1rem;
+  cursor: pointer;
+  background-color: var(--app-input-bg);
+  color: var(--app-foreground);
+}
+
+.theme-button:focus {
+  outline: solid blue;
+}
+
+details {
+  cursor: pointer;
+}
