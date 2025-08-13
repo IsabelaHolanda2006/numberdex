@@ -1,6 +1,6 @@
 # Numberdex
  
-Numberdex is a web application designed to help users explore, analyze, and interact with numbers in creative and educational ways.
+Numberdex is a web application designed to help users explore, analyze, and interact with numbers.
 
 ---
 
@@ -14,20 +14,20 @@ Numberdex is a web application designed to help users explore, analyze, and inte
 
 ### Getting Started
 
-1. **Clone the repository:**
+**Clone the repository:**
   ```bash
   git clone https://github.com/IsabelaHolanda2006/numberdex.git
   cd numberdex
   ```
 
-2. **Install dependencies:**
+**Install dependencies:**
   ```bash
   npm install
   # or
   yarn install
   ```
 
-5. **Open your browser:**
+**Open your browser:**
   - Visit [http://localhost:5173](http://localhost:5173) to view the site.
 
 ---

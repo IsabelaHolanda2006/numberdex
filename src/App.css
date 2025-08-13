@@ -4,14 +4,14 @@
   justify-content: center;
   background-color: var(--app-surface-bg);
   color: var(--app-foreground);
-  width: 20rem;
+  width: auto;
   margin: 1rem;
   padding: 1rem;
   border-radius: 6px;
   box-shadow: var(--app-shadow);
   overflow-wrap: break-word;
   white-space: pre-line;
-  inline-size: 18rem;
+  inline-size: 10rem;
 }
 
 .screen {

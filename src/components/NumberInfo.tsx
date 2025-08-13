@@ -24,12 +24,12 @@ export default function NumberInfo({ number }: NumberInfoProps) {
 
     return (
         <div className='number-info'>
-            <div>{`Is Even: ${isNumberEven}`}</div>
-            <div>{`Square Root: ${squareRoot}`}</div>
-            <div>{`Cube Root: ${cubeRoot}`}</div>
-            <div>{`Is Prime Number: ${isNumberPrime}`}</div>
-            <div>{`Sum of Divisors: ${sumOfDivisors}`}</div>
-            <div>{`Is Perfect: ${isNumberPerfect}`}</div>
+            <div>{`Is Even:\n${isNumberEven}`}</div>
+            <div>{`Square Root:\n${squareRoot}`}</div>
+            <div>{`Cube Root:\n${cubeRoot}`}</div>
+            <div>{`Is Prime Number:\n${isNumberPrime}`}</div>
+            <div>{`Sum of Divisors:\n${sumOfDivisors}`}</div>
+            <div>{`Is Perfect:\n${isNumberPerfect}`}</div>
             <div>
                 Divisors:
                 <details open={isDetailsOpen} onToggle={() => setIsDetailsOpen(previous => !previous)}>
